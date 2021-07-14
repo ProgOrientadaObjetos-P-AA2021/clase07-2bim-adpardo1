@@ -11,6 +11,7 @@ package paquete04;
  */
 public class TransporteTaxi extends Transporte {
     private String cooperativaTaxi;
+    private Transporte tipotransporte;
     
     
     public void establecerCooperativaTaxi(String n){

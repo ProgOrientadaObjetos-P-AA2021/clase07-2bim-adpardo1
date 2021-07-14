@@ -17,6 +17,7 @@ public class TransporteTaxi {
         cooperativaTaxi = n;
     }
     
+    public void 
     public void establecerTarifa(){
         tarifa = 0.40 + (0.40*0.5);
     }

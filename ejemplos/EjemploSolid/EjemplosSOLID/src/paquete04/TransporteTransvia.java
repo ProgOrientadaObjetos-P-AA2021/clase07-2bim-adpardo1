@@ -7,19 +7,18 @@ package paquete04;
 
 /**
  *
- * @author reroes
+ * @author 0zzda
  */
-public class TransporteBus extends Transporte {
-
-    private String cooperativaBus;
+public class TransporteTransvia extends Transporte{
+    private String cooperativaTransvia;
     private Transporte tipotransporte;
-    
-   
-    public void establecerCooperativaBus(String n) {
-        cooperativaBus = n;
+
+        
+    public void establecerCooperativaTransvia(String n) {
+        cooperativaTransvia = n;
     }
     
-    public void establecerTransporteBus(Transporte n){
+    public void establecerTransporteTransvia(Transporte n){
         tipotransporte=n;
     }
 
@@ -28,9 +27,7 @@ public class TransporteBus extends Transporte {
         tarifa = 2.00 + 0.20;
     }
 
-    public String obtenerCooperativaBus() {
-        return cooperativaBus;
+    public String obtenerCooperativaTransvia() {
+        return cooperativaTransvia;
     }
-   
-
 }
