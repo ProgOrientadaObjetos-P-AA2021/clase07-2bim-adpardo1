@@ -17,8 +17,7 @@ import java.util.ArrayList;
 public class TiposTransporte {
     private double promedioTarifas;
     private ArrayList<Transporte> transportes; // puedo tener muchos tipos de Transporte
-    private TransporteTaxi ttaxi;
-    private TransporteBus ttbus;
+
     
     public void establecerTransportes(ArrayList<Transporte> t){
         transportes = t;
@@ -27,21 +26,7 @@ public class TiposTransporte {
     public ArrayList<Transporte> obtenerTransportes(){
         return transportes;
     }
-    public void establecerTransporteTaxi(TransporteTaxi taxi){
-        ttaxi = taxi;
-    }
     
-    public void establecerTransporteBus(TransporteBus bus){
-        ttbus = bus;
-    }
-    
-    public TransporteTaxi obtenerTransporteTaxi(){
-        return ttaxi;
-    }
-    
-    public TransporteBus obtenerTransporteBus(){
-        return ttbus;
-    }
     public void establecerPromedioTarifas(){
         double suma = 0;
         for (int i = 0; i < obtenerTransportes().size(); i++) {
