@@ -42,7 +42,6 @@ public class Principal {
         lista.add(mar);
         
         TiposTransporte tipos = new TiposTransporte();
-        tipos.obtenerPromedioTarifas();
         tipos.establecerTransportes(lista);
         tipos.establecerPromedioTarifas();
         
